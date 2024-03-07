@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="assets/logo.png"><br>
+  <img src="assets/logo.svg"><br>
+  <samp>POMEGRANATE TIMER<samp>
   <samp>
     Your life is like a pomegranate;<br>
     every single granule you eat is never back again,<br>
