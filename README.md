@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png"  width="200px" height="200px"><br>
+  <img src="assets/logo.png"><br>
   <samp>
     Your life is like a pomegranate;<br>
     every single granule you eat is never back again,<br>
