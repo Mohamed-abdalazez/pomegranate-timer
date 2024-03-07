@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg"><br>
+  <img src="assets/logo.svg" width="300px" height="300px"><br>
   <samp>POMEGRANATE TIMER</samp><br>
   <samp>
     Your life is like a pomegranate;<br>
