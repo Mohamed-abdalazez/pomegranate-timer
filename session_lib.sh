@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Initialize the year directory and create the current date.json file
 initialize() {
   year=$(date +"%Y")
@@ -71,7 +70,6 @@ start_session() {
   play_alarm
 }
 
-
 # Play alarm after the timer is done
 play_alarm() {
   # You can replace 'paplay' with any command that plays an alarm sound
@@ -83,9 +81,11 @@ play_alarm() {
 save_session_info() {
 
   start_time=$(date +"%T")
-  end_time=$(date +"%T") # Placeholder, should be updated with actual end time
   total_time="$total_time"
   full_date=$(date +"%Y-%m-%d")
+
+  sleep "$total_seconds"
+  end_time=$(date +"%T")
 
   # Append session information to JSON file
   cat <<EOF >>"$today_json"
