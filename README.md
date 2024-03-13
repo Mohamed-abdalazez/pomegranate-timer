@@ -31,7 +31,7 @@
 - Then the timer starts counting down until the time is gone.
 - Records session information including the date, start time, end time, total time, activity, motivation, and mood.
 - Stores this information in a structured format (JSON) for later reference and analysis.
-- See from [here](https://github.com/Mohamed-abdalazez/pomegranate-timer/blob/main/manual/README.md) the nitty-gritty details of what actually happens in the entire process and how to run the script.
+- See from [here](https://github.com/Mohamed-abdalazez/pomegranate-timer/blob/main/manual/1st_release/README.md) the nitty-gritty details of what actually happens in the entire process and how to run the script.
 #### Motivational Aspect
 - Incorporates a motivational message at the beginning of each session to inspire users to utilize their time effectively.
 #### Next release
