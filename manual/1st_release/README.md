@@ -1,5 +1,5 @@
 <p align="center">
- <img src="../assets/PT_first_Release.png" width="250px" height="200px"><br>
+ <img src="../../assets/PT_first_Release.png" width="250px" height="200px"><br>
 </p>
 
 #### Getting Started
