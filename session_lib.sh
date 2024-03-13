@@ -84,9 +84,6 @@ save_session_info() {
   total_time="$total_time"
   full_date=$(date +"%Y-%m-%d")
 
-  sleep "$total_seconds"
-  end_time=$(date +"%T")
-
   # Append session information to JSON file
   cat <<EOF >>"$today_json"
 {
@@ -129,6 +126,7 @@ display_pomegranate_timer() {
     sleep 1
     remaining_seconds=$((remaining_seconds - 1))
   done
+  end_time=$(date +"%T")
   # Print that the session is done
   echo -e "\nThe session is done, and your progress is saved✔️"
 }
